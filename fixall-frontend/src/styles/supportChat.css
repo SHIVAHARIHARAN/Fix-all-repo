@@ -1,0 +1,79 @@
+.support-chat-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chat-toggle-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.chat-popup {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+  width: 280px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.agent-status {
+  color: green;
+  font-weight: bold;
+}
+
+.chat-body {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.user-msg {
+  background-color: #e1f5fe;
+  margin: 5px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.agent-msg {
+  background-color: #f1f8e9;
+  margin: 5px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  align-self: flex-start;
+}
+
+textarea {
+  resize: none;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+
+.send-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
