@@ -1,0 +1,59 @@
+.admin-booking-table {
+  padding: 30px;
+  background: #f5faff;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-booking-table h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.admin-booking-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-booking-table th,
+.admin-booking-table td {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.admin-booking-table th {
+  background-color: #e0f1ff;
+  color: #2c3e50;
+}
+
+.admin-booking-table button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-booking-table button:hover {
+  opacity: 0.9;
+}
+
+button:contains("Approve") {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:contains("Reject") {
+  background-color: #f44336;
+  color: white;
+}
+
+button:contains("Complete") {
+  background-color: #2196F3;
+  color: white;
+}

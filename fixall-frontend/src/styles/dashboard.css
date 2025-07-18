@@ -1,0 +1,332 @@
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.sidebar .nav-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  display: block;
+  background: none;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sidebar button:hover {
+  background-color: #34495e;
+}
+
+.sidebar .logout-btn {
+  color: #f44336;
+  font-weight: bold;
+  margin: 20px;
+  align-self: flex-start;
+}
+
+/* Brand title */
+.brand-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+
+.dashboard-main {
+  padding: 40px  20px;
+  background: linear-gradient(to bottom right, #f0f4f8, #dbefff);
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.form-center-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateX(-40px); 
+}
+
+
+.welcome-container,
+.form-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.welcome-card {
+   background-color: #ffffff;
+  border: 1px solid #cdddf0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.welcome-card h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.welcome-card button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.welcome-card button:hover {
+  background-color: #1a252f;
+}
+
+
+.upcoming-box {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  height: 127px;
+}
+
+.upcoming-box h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.upcoming-box ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.upcoming-box li {
+  padding: 4px 0;
+}
+
+
+.form-close-btn {
+  position: absolute;
+  right: -80px;
+  top: -10px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+}
+.status-dropdown {
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status-dropdown.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-dropdown.confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-dropdown.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-dropdown.completed {
+  background-color: #cce5ff;
+  color: #004085;
+}
+.calendar-widget {
+  background: #2c3e50;
+  
+  border: 1px solid #dbe3ec;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin-left: 20px;
+  gap: 50px;
+  height: 360px;
+  padding-top: 20px;
+}
+
+.calendar-widget h3 {
+  margin-bottom: 5px;
+  text-align: center;
+  color:white;
+  
+}
+.react-calendar {
+    width: 350px;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #a0a096;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.125em;
+    border-radius: 10px;
+
+}
+.info-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 134px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+
+  margin-left: 490px;
+
+  
+  margin-top: -225px;
+}
+
+.referral-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.referral-code-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:white;
+  padding: 6px 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-family: monospace;
+
+}
+
+.referral-code-box button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.referral-code-box button:hover {
+  background: #1976d2;
+}
+.extra-card-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.admin-dashboard {
+  padding: 40px;
+  background: #f7f9fb;
+}
+
+.search-input {
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f0f4f8;
+}
+  .admin-users-panel {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+.admin-users-panel h2 {
+  margin-bottom: 15px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  color: white;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+.admin-tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.admin-tab-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.admin-tab-buttons button.active,
+.admin-tab-buttons button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}

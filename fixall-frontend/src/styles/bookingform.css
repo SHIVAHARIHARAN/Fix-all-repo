@@ -1,0 +1,88 @@
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  transform: translateX( +50px);
+}
+
+.booking-form .form-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.booking-form textarea {
+  resize: vertical;
+}
+
+.booking-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.booking-form button:hover {
+  background-color: #218838;
+}
+
+.success-msg {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 0.75rem;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.status-pending {
+  background-color: orange;
+  color: white;
+}
+
+.status-confirmed {
+  background-color: green;
+  color: white;
+}
+
+.status-rejected {
+  background-color: crimson;
+  color: white;
+}
+
+.status-completed {
+  background-color: gray;
+  color: white;
+}
+

@@ -1,0 +1,31 @@
+
+
+.loyalty-card {
+  background: #fff;
+  border: 1px solid #dbe3ec;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 16px 30px;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.loyalty-card h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
